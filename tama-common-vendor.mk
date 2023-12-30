@@ -292,24 +292,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/sony/tama-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/sony/tama-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b00 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b01 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b02 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b03 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b04 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b05 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b06 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.b07:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b07 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.mdt \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b00 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b01 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b02 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b03 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b04 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b05 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b06 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.b07:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b07 \
-    vendor/sony/tama-common/proprietary/vendor/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.mdt \
     vendor/sony/tama-common/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/sony/tama-common/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/sony/tama-common/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
@@ -474,6 +456,24 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/firmware/tzhdcp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b06 \
     vendor/sony/tama-common/proprietary/vendor/firmware/tzhdcp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b07 \
     vendor/sony/tama-common/proprietary/vendor/firmware/tzhdcp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.mdt \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b00 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b01 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b02 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b03 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b04 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b05 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b06 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b07 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.mdt \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b00 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b01 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b02 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b03 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b04 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b05 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b06 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.b07 \
+    vendor/sony/tama-common/proprietary/vendor/firmware/tztpm.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.mdt \
     vendor/sony/tama-common/proprietary/vendor/firmware/tzwidevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b00 \
     vendor/sony/tama-common/proprietary/vendor/firmware/tzwidevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b01 \
     vendor/sony/tama-common/proprietary/vendor/firmware/tzwidevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b02 \
@@ -917,6 +917,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common/proprietary/vendor/lib64/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta_hexagon_runtime.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libidd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidd.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
+    vendor/sony/tama-common/proprietary/vendor/lib64/libintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libintegration.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
     vendor/sony/tama-common/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
